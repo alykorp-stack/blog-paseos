@@ -1,0 +1,23 @@
+---
+title: "Paseos"
+format: html
+execute: 
+  echo: false
+  warning: false
+  engine: knitr
+
+listing:
+  contents: paseos
+  type: grid
+  fields: [title, description, date, image]
+  sort: "date desc"
+  image-align: left
+  image-height: 300px
+  
+date-format: "DD MMMM, YYYY"
+
+
+---
+
+source(here::here("pagina coco/convertDocs"))
+post <- extract_and_render_post("NOMBREEE.docx")

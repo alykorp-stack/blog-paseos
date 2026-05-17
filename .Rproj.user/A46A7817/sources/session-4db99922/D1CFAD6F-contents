@@ -1,0 +1,22 @@
+---
+title: "Paseos"
+format: html
+execute: 
+  echo: false
+  warning: false
+  engine: knitr
+
+listing:
+  contents: paseos
+  type: grid
+  fields: [title, description, date, image]
+  sort: "date desc"
+  image-align: left
+  image-height: 300px
+  
+date-format: "DD MMMM, YYYY"
+
+
+---
+
+readr::read
