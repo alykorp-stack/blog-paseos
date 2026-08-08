@@ -22,6 +22,8 @@ website:
 
   navbar:
     title: false
+    background: "#212529"
+    foreground: "#f8f9fa"
     left:
       - icon: house
         href: index.qmd

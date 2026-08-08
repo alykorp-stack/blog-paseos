@@ -5,10 +5,13 @@ author: "Coco"
 date: '2026-08-08'
 categories: [La Paz, Corto]
 description: "El primer paseo del blog, una vuelta corta por la ciudad."
+carousel:
+  - foto-1: "Saliendo temprano, todavia sin trafico."
+  - foto-2: "La parada de media ruta."
+  - foto-3: "De vuelta a casa."
 ---
 
 ## La ruta
-
 
 Aqui va la descripcion de la ruta: por donde empezo, que calles tomo, y donde
 termino. Un paseo corto por la ciudad para estrenar el blog.
@@ -17,6 +20,14 @@ termino. Un paseo corto por la ciudad para estrenar el blog.
 
 Aqui van las notas de lo que vi durante el paseo. Las paradas, la gente, el
 clima, y cualquier cosa que valga la pena recordar.
+
+{{< carousel >}}
+
+## Mapa
+
+![](images/mapa.jpg)
+
+El recorrido completo del dia.
 
 ## Notas
 
