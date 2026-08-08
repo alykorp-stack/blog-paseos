@@ -8,7 +8,7 @@ project:
     - paseos/banners/
 
 website:
-  title: Coco
+  title: Jorge Cordero Zarate
   description: Blog de mis aventuras en bici.
   back-to-top-navigation: false
   page-footer:
@@ -34,11 +34,11 @@ website:
 
     tools:
       - icon: instagram
-        href: https://www.instagram.com/yourhandle
+        href: https://www.instagram.com/jcorde3/
         text: Instagram
         target: _blank
       - icon: facebook
-        href: https://www.facebook.com/yourpage
+        href: https://www.facebook.com/jcorde
         text: Facebook
         target: _blank
 
