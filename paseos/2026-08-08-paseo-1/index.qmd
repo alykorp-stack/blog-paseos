@@ -11,10 +11,16 @@ carousel:
   - foto-3: "De vuelta a casa."
 ---
 
-## La ruta
+## Mi destino
 
 Aqui va la descripcion de la ruta: por donde empezo, que calles tomo, y donde
 termino. Un paseo corto por la ciudad para estrenar el blog.
+
+## Mapa
+
+![](images/mapa.jpg)
+
+El recorrido completo del dia.
 
 ## En el camino
 
@@ -23,11 +29,7 @@ clima, y cualquier cosa que valga la pena recordar.
 
 {{< carousel >}}
 
-## Mapa
 
-![](images/mapa.jpg)
-
-El recorrido completo del dia.
 
 ## Notas
 
