@@ -1,8 +1,11 @@
 {
   "index.qmd": {
-    "index.html": "c490a3a2"
+    "index.html": "401b14f3"
   },
-  "paseos/indexP.qmd": {
-    "indexP.html": "7862a15d"
+  "paseos.qmd": {
+    "paseos.html": "a3ec2ca7"
+  },
+  "paseos/2026-08-08-paseo-1/index.qmd": {
+    "index.html": "b10152fb"
   }
 }

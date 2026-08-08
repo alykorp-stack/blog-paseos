@@ -1,45 +1,23 @@
 ---
 title: "Coco"
-image: "bici.jpg"
-execute: 
-  echo: false
-  warning: false
-  engine: knitr
+description: "Blog de mis aventuras en bici."
+image: resources/images/homepage.jpg
+toc: false
+grid:
+  body-width: 1300px
 about:
-  template: solana
+  template: trestles
+  image-width: 18em
+  image-shape: round
   links:
-    - text: '<i class="fa-brands fa-instagram"></i> Instagram'
+    - icon: instagram
       href: https://www.instagram.com/yourhandle
-    - text: '<i class="fa-brands fa-facebook"></i> Facebook'
+      target: _blank
+    - icon: facebook
       href: https://www.facebook.com/yourpage
+      target: _blank
 ---
 
-Bienvenidos a mi base de datos. Aqui se pueden encontrar blogs de mis aventuras en bici.
+## Bienvenidos a mi pagina!
 
-```{css, echo=FALSE}
-/* image size */
-.quarto-about-solana .about-image {
-  width: 400px !important;
-  height: 400px !important;
-  object-fit: cover;
-  border-radius: 50% !important;
-}
-```
-
-```{css, echo=FALSE}
-
-/* icon links container */
-.about-links {
-  display: flex !important;
-  flex-wrap: wrap;
-  gap: 130px !important;          /* space BETWEEN buttons */
-  justify-content: center;       /* center, flex-start (left), flex-end (right) */
-  margin-top: 20px !important;
-}
-
-/* each individual button */
-.about-link {
-  padding: 5px 18px !important;  /* top/bottom  left/right padding inside button */
-  font-size: 1rem !important;    /* icon/text size */
-  }
-```
+{{< include /resources/chunks/intro.qmd >}}

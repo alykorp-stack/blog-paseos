@@ -1,18 +1,58 @@
 project:
   type: website
+  render:
+    - "**/*.qmd"
+    - "!**/resources/**/*.qmd"
+  resources:
+    - resources/images/
+    - paseos/banners/
 
 website:
-  title: "Coco"
+  title: Coco
+  description: Blog de mis aventuras en bici.
+  back-to-top-navigation: false
+  page-footer:
+    center: "© Coco"
+    border: true
+    background: light
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+
   navbar:
+    title: false
     left:
-      - href: index.qmd
+      - icon: house
+        href: index.qmd
         text: Home
-      - text: Paseos
-        href: paseos/indexP.qmd
+      - icon: bicycle
+        href: paseos.qmd
+        text: Paseos
+
+    tools:
+      - icon: instagram
+        href: https://www.instagram.com/yourhandle
+        text: Instagram
+        target: _blank
+      - icon: facebook
+        href: https://www.facebook.com/yourpage
+        text: Facebook
+        target: _blank
 
 format:
   html:
-    theme: flatly
+    toc: true
+    toc-depth: 5
+    toc-location: left
+    lightbox: true
+    theme: [flatly, resources/styles/styles.scss]
+    link-external-newwindow: true
+    link-external-icon: false
     include-in-header:
       text: |
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+execute:
+  echo: false
+  warning: false

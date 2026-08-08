@@ -1,0 +1,25 @@
+---
+title: Titulo del paseo
+image: "/paseos/banners/2026-08-08-paseo-1.jpg"
+author: "Coco"
+date: '2026-08-08'
+categories: [La Paz, Corto]
+description: "El primer paseo del blog, una vuelta corta por la ciudad."
+---
+
+## La ruta
+
+
+Aqui va la descripcion de la ruta: por donde empezo, que calles tomo, y donde
+termino. Un paseo corto por la ciudad para estrenar el blog.
+
+## En el camino
+
+Aqui van las notas de lo que vi durante el paseo. Las paradas, la gente, el
+clima, y cualquier cosa que valga la pena recordar.
+
+## Notas
+
+- **Distancia**: por completar
+- **Duracion**: por completar
+- **Dificultad**: facil
