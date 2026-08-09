@@ -1,5 +1,5 @@
 ---
-title: "Coco"
+title: "Jorge Cordero Zarate"
 description: "Blog de mis aventuras en bici."
 image: resources/images/homepage.jpg
 toc: false
@@ -11,10 +11,10 @@ about:
   image-shape: round
   links:
     - icon: instagram
-      href: https://www.instagram.com/yourhandle
+      href: https://www.instagram.com/jcorde3
       target: _blank
     - icon: facebook
-      href: https://www.facebook.com/yourpage
+      href: https://www.facebook.com/jcorde
       target: _blank
 ---
 
